@@ -18,7 +18,7 @@ UNTIL population has converged
 STOP
 ```
 Here is a snapshot from the visualisation:
-![alt text](img.png)
+![alt text](img.PNG)
 
 Here the Red car shows the fittest offspring from the previous generation.
 
