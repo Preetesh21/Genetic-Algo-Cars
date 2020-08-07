@@ -1,5 +1,5 @@
 var population;
-var lifespan = 300;
+var lifespan = 350;
 var lifeP;
 var fitnessP;
 var bestFitness = 0;
