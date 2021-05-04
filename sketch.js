@@ -36,7 +36,7 @@ var y = 500;
 var inp;
 
 function setup() {
-    var canvas = createCanvas(600, 600);
+    var canvas = createCanvas(500, 500);
     population = new Population(y);
     lifeP = createP();
     fitnessP = createP();
@@ -47,21 +47,21 @@ function setup() {
     bestDNA = new DNA();
     bestRocket = new Rocket(bestDNA);
 
-    inp.html("Population Size::");
-    input = createInput(value = 500);
-    input.position(920, 810);
-    button = createButton('submit');
-    button.position(input.x + input.width, 810);
-    button.mousePressed(() => {
-        console.log(input.value());
-        y = input.value();
-        population = new Population(y);
-    })
+    // inp.html("Population Size::");
+    // input = createInput(value = 500);
+    // input.position(920, 810);
+    // button = createButton('submit');
+    // button.position(input.x + input.width, 810);
+    // button.mousePressed(() => {
+    //     console.log(input.value());
+    //     y = input.value();
+    //     population = new Population(y);
+    // })
     canvas.parent('my');
     lifeP.parent('my');
     fitnessP.parent('my');
     countt.parent('my');
-    inp.parent('my');
+    //inp.parent('my');
     firstt.parent('my');
 
 }
